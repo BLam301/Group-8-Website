@@ -1,0 +1,151 @@
+/* Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Navigation Bar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li,a,button,p {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9
+}
+
+/* Contact button */
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+/* Homepage clickable portraits */
+.clickable__portraits {
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Borders around every image except logo */
+img:not(.logo) {
+    box-shadow: 2px 2px 20px #666;
+    border: none;
+    border-radius: 8px;
+  }
+
+/* Contact page has larger font */
+li.emails {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 50px;
+    color: #edf0f1
+}
+
+/* Heading fonts */
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    font-size: 48px;
+    color: #edf0f1
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #edf0f1
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #edf0f1
+}
+
+/* Center aligning text, padding, 2.5 inch margins */
+p,h1,h3,h5,ul {
+    margin-left: 2.5in;
+    margin-right: 2.5in;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+div.portrait,div.general__info,div.main,div.contact__info {
+    text-align: center;
+}
+
+ul.list {
+    display: inline-block;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    display: inline-block;
+}
+
+/* Color for embedded links */
+.links {
+    color: rgba(0,136,169,1)
+}
+
+/* Fade-in animation */
+body {
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

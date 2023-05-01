@@ -1,0 +1,222 @@
+/* Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,a,button,p {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9
+}
+
+/* Contact button */
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1d1e22;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+  
+header h1 {
+    font-size: 36px;
+}
+  
+nav ul {
+    display: flex;
+    list-style: none;
+}
+  
+nav ul li {
+    margin-left: 20px;
+}
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+  
+main {
+    padding: 0;
+}
+  
+section {
+    margin: 0;
+}
+  
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+  
+section#about {
+    background-color: #393f4d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+    margin: 0;
+}
+  
+section#about img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+  
+section#about p {
+      margin-top: 20px;
+}
+  
+.about-text {
+    max-width: 600px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    font-size: 50px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+  
+section#hobbies {
+    background-color: #1d1e22;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+  
+section#hobbies h1{
+      font-size: 50px;
+}
+  
+.hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 40px;
+}
+  
+.hobby img {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+  
+.hobby h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.images img {
+    width: 33.33%;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+  
+#why-info {
+    background-color: #f5f5f5;
+    color: #333333;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.container p {
+    color: black;
+}
+        
+#why-info h2 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+        
+.info-text {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #1d1e22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+body {
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

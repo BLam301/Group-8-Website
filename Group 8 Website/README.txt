@@ -1,0 +1,3 @@
+To open the website, open Homepage.html. The website is easily navigatable via the navigation bar at the top. Each one of our names will bring the user to our respective personal webpage.
+Our portraits on the home page will also take you to our respective personal page. The logo acts as a button that will bring the user back to the home page. 
+The contact button will bring the user to a page with our contact information. The navigation bar is present on every page to easily switch between the different pages. 
